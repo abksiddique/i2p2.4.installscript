@@ -8,9 +8,5 @@ USE THIS COMMAND ONCE ON LOCAL MACHINE TO INSTALL ALL
 sudo apt update &&
 sudo apt install git &&
 git clone https://github.com/abksiddique/i2p2.4.installscript.git &&
-cd i2p2.4.installscript
-
-chmod +x i2p2.4installscript.bash
-./i2p2.4installscript.bash
-
+cd i2p2.4.installscript && chmod +x i2p2.4installscript.bash && ./i2p2.4installscript.bash
 ................................................................
