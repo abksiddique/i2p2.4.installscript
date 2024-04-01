@@ -9,7 +9,8 @@ sudo apt update &&
 sudo apt install git &&
 git clone https://github.com/abksiddique/i2p2.4.installscript.git
 cd i2p2.4.installscript
-./i2p_install.sh
+
+./i2p2.4.installscript.bash
 
 ............................................
 sudo apt update
