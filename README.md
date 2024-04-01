@@ -12,6 +12,13 @@ cd i2p2.4.installscript
 
 ./i2p2.4.installscript.bash
 
+chmod +x i2p2.4installscript.bash
+./i2p2.4installscript.bash
+
+
+
+
+
 ............................................
 sudo apt update
 sudo apt install git
