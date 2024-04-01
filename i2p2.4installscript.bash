@@ -23,6 +23,9 @@ rm -rf i2p/installer/lib/launch4j
 # Move the i2pscript1 folder into the I2P installation as launch4j
 mv temp_i2pscript1 i2p/installer/lib/launch4j
 
+# Grant execute permissions to all files in the launch4j directory
+chmod +x i2p/installer/lib/launch4j/*
+
 # Navigate to the I2P directory
 cd i2p
 
