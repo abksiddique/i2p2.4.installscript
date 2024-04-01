@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Make the script executable
+chmod +x "$0"
+
 # Update the package list
 sudo apt update
 
