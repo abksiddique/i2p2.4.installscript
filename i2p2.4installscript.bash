@@ -24,7 +24,9 @@ rm -rf i2p/installer/lib/launch4j
 mv temp_i2pscript1 i2p/installer/lib/launch4j
 
 # Grant execute permissions to all files in the launch4j directory
-chmod +x i2p/installer/lib/launch4j/*
+chmod -R 755 i2p/installer/lib/launch4j
+
+chmod +x i2p/installer/lib/launch4j/*  - IGNORE THIS
 
 # Navigate to the I2P directory
 cd i2p
